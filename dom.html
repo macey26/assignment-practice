@@ -35,6 +35,17 @@ const header3 =document.createElement("h3");
  header3.style.color = "blue";
  container.appendChild(header3);
 
+ const divy = document.createElement("div");
+  divy.classList.add("divy");
+  divy.setAttribute('style', "backgroundColor: pink border: black;")
+  const header1 = document.createElement("h1")
+  header1.classList.add("header1");
+  header1.textContent= "I'm in a div";
+  divy.appendChild(header1);
+
+  container.appendChild(divy);
+
+
 
 </script>
 
